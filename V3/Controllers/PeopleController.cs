@@ -48,6 +48,14 @@
                     LastName = "Doe",
                     Email = "jane.doe@somewhere.com",
                     Phone = "555-789-3456"
+                },
+                new Person()
+                {
+                    Id = 4,
+                    FirstName = "Hakan",
+                    LastName = "Tuncer",
+                    Email = "hakan.tuncer@somewhere.com",
+                    Phone = "555-643-8432"
                 }
             };
 
