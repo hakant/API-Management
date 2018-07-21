@@ -9,7 +9,7 @@
     /// </summary>
     [ApiVersion( "1.0" )]
     [ApiVersion( "0.9", Deprecated = true )]
-    [Route( "v{api-version:apiVersion}/api/[controller]" )]
+    [Route( "api/v{api-version:apiVersion}/[controller]" )]
     public class PeopleController : Controller
     {
         /// <summary>
