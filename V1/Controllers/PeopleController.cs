@@ -7,8 +7,7 @@
     /// <summary>
     /// Represents a RESTful people service.
     /// </summary>
-    [ApiVersion( "1.0" )]
-    [ApiVersion( "0.9", Deprecated = true )]
+    [ApiVersion( "1.0", Deprecated = true )]
     [Route( "api/v{api-version:apiVersion}/[controller]" )]
     public class PeopleController : Controller
     {
